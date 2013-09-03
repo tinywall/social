@@ -1,0 +1,77 @@
+html{margin:0px;padding:0px;}
+body{margin:0px;padding:0px;background:#184f7d;font-family:arial;}
+#twl-container{margin:0px;padding:0px;background-image:url(../images/landing_bg.png);background-repeat: repeat-x;min-height:520px;width:100%;}
+#twl-cont{margin:0 auto;width:960px;padding:0px;}
+#twl-cont-right{width:100%;height:490px;background-image:url(../images/friends.png),url(../images/pillar.png),url(../images/clouds.png);
+ background-repeat:no-repeat;
+ background-position:100px 130px,0px 0px,top left;
+ }
+ #twl-cont-right-bg2{width:100%;height:490px;background-image:url(../images/friends.png);
+ background-repeat:no-repeat;
+ background-position:100px 130px;
+ }
+ #twl-cont-right-bg3{width:100%;height:490px;background-image:url(../images/pillar.png);
+ background-repeat:no-repeat;
+ background-position:0px 0px;
+ }
+ #twl-cont-right-bg1{width:100%;height:490px;background-image:url(../images/clouds.png);
+ background-repeat:no-repeat;
+ background-position:top left;
+ }
+ #twl-logo{padding:10px 150px;}
+ #twl-content{margin:200px 680px;width:270px;height:150px;color:#fff;}
+ #twl-footer{margin:0 auto; width:960px;height:50px;color:#fff;font-size:12px;margin-top: 40px;}
+ #twl-footer-left{float:left;}
+ #twl-footer-left a{
+ 	color:#fff;text-decoration:none;margin-right:5px;margin-left:5px;
+ }
+ #twl-footer-right{float:right}
+ .clear{clear:both;}
+ #twl-password,#twl-username,#twl-temppassword{
+ margin-top:0px;
+ margin-bottom:3px;
+ -moz-border-radius:4px;
+-webkit-border-radius:4px;
+border-radius:4px;
+/*IE 7 AND 8 DO NOT SUPPORT BORDER RADIUS*/
+/*-moz-box-shadow:0px 0px 2px #000000;
+-webkit-box-shadow:0px 0px 2px #000000;
+box-shadow:0px 0px 2px #000000;*/
+width:200px;font-size:16px;
+padding:3px;
+
+}
+ #twl-login{
+  -moz-border-radius:4px;
+-webkit-border-radius:4px;
+border-radius:4px;
+/*IE 7 AND 8 DO NOT SUPPORT BORDER RADIUS*/
+/*-moz-box-shadow:0px 0px 2px #000000;
+-webkit-box-shadow:0px 0px 2px #000000;
+box-shadow:0px 0px 2px #000000;*/
+width:210px;font-size:16px;
+background:#ccc;
+}
+ #twl-register{
+   -moz-border-radius:4px;
+-webkit-border-radius:4px;
+border-radius:4px;
+/*IE 7 AND 8 DO NOT SUPPORT BORDER RADIUS*/
+/*-moz-box-shadow:0px 0px 2px #000000;
+-webkit-box-shadow:0px 0px 2px #000000;
+box-shadow:0px 0px 2px #000000;*/
+width:210px;font-size:16px;
+ margin-bottom:3px;
+ background:#ccc;
+}
+.twl-openlogin{
+	width:29px;
+	height:35px;
+	vertical-align:middle;
+}
+#twl-register-title{
+	font-size:12px;
+	margin-top:10px;
+}
+ 
+ 

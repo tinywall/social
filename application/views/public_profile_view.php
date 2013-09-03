@@ -1,0 +1,1 @@
+<h1>Public Profile of <?php echo $current_user->first_name." ".$current_user->last_name;?></h1>
