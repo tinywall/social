@@ -35,8 +35,8 @@ class Landing extends TW_Controller{
 	}
 	function fblogin(){
 		$config = array(
-                         'appId'  => '255296981155389',
-		  				'secret' => '82f1f717d952d44f5e7375fda0695d70',
+                         'appId'  => '',
+		  				'secret' => '',
                         'fileUpload' => true, // Indicates if the CURL based @ syntax for file uploads is enabled.
                         );
         $this->load->library('Facebook', $config);
