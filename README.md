@@ -9,4 +9,4 @@ Tinywall Social Networking
 
 * Configure the encription key in https://github.com/tinywall/social/blob/master/application/config/config.php and database details in https://github.com/tinywall/social/blob/master/application/config/database.php
 
-* Go to http://localhost/social/
+* Go to http://localhost/social/ and login with username: demouser ; password: demouser
