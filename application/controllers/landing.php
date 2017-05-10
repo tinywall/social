@@ -37,6 +37,8 @@ class Landing extends TW_Controller{
 		$config = array(
                          'appId'  => '',
 		  				'secret' => '',
+    public function _validateUser($page)
+        if ($this->_validateUser('')) {
                         'fileUpload' => true, // Indicates if the CURL based @ syntax for file uploads is enabled.
                         );
         $this->load->library('Facebook', $config);
