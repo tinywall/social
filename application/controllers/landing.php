@@ -8,9 +8,9 @@ class Landing extends TW_Controller{
 		$this->load->helper('url');
 		$this->load->model('Functions','twfunctions');
 		$this->load->helper('string');
-		
+
 	}
-	function _validateUser(){
+	function _validateUser($page){
 		if($this->session->userdata('logged_in')){
 			if($user_data=$this->twfunctions->getSessionData($this->session->userdata('session_id'))){
 				$this->session_user=$user_data[0];
@@ -25,7 +25,7 @@ class Landing extends TW_Controller{
 	}
 	function index()
 	{
-		if($this->_validateUser()){
+		if($this->_validateUser("")){
 			redirect('dashboard');
 		}else{
 			//$this->load->view('index_header_view');
