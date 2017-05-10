@@ -49,6 +49,7 @@ class CI_Controller {
 		$this->load =& load_class('Loader', 'core');
 
 		$this->load->_base_classes =& is_loaded();
+		$this->load->_base_classes = is_loaded();
 
 		$this->load->_ci_autoloader();
         $this->load->_base_classes = is_loaded();

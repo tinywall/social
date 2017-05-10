@@ -8,9 +8,9 @@ class Landing extends TW_Controller{
 		$this->load->helper('url');
 		$this->load->model('Functions','twfunctions');
 		$this->load->helper('string');
-		
+
 	}
-	function _validateUser(){
+	function _validateUser($page){
 		if($this->session->userdata('logged_in')){
 			if($user_data=$this->twfunctions->getSessionData($this->session->userdata('session_id'))){
 				$this->session_user=$user_data[0];
@@ -37,8 +37,6 @@ class Landing extends TW_Controller{
 		$config = array(
                          'appId'  => '',
 		  				'secret' => '',
-    public function _validateUser($page)
-        if ($this->_validateUser('')) {
                         'fileUpload' => true, // Indicates if the CURL based @ syntax for file uploads is enabled.
                         );
         $this->load->library('Facebook', $config);
