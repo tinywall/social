@@ -25,7 +25,7 @@ class Landing extends TW_Controller{
 	}
 	function index()
 	{
-		if($this->_validateUser()){
+		if($this->_validateUser("")){
 			redirect('dashboard');
 		}else{
 			//$this->load->view('index_header_view');
